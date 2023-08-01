@@ -1,5 +1,3 @@
-import React from "react";
-
 type InputProps = {
   value: string;
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
@@ -8,6 +6,7 @@ type InputProps = {
   className?: string;
   classNameContianer?: string;
   disabled?: boolean;
+  icon?: React.ReactNode;
 };
 
 const Input: React.FC<InputProps> = ({
@@ -18,12 +17,14 @@ const Input: React.FC<InputProps> = ({
   className,
   classNameContianer,
   disabled,
+  icon,
 }) => {
   return (
     <div className={`flex flex-col ${classNameContianer}`}>
       <label htmlFor={`input-${label}`} className="mb-1">
         {label}
       </label>
+      {icon}
       <input
         type="text"
         id={`input-${label}`}

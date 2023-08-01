@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`performs snapshot testing 1`] = `
+<div
+  className="flex flex-col undefined"
+>
+  <label
+    className="mb-1"
+    htmlFor="input-undefined"
+  />
+  <input
+    className="border rounded-lg px-4 py-2 hover:opacity-90 undefined"
+    id="input-undefined"
+    type="text"
+  />
+</div>
+`;

@@ -2,3 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  /* Button sizes  */
+  .sm {
+    @apply px-3;
+  }
+  .md {
+    @apply px-5;
+  }
+  .lg {
+    @apply px-7;
+  }
+
+  /* Button Valriant  */
+  .primary-btn {
+    @apply bg-red-600 text-white;
+  }
+  .primary-btn:hover {
+    @apply bg-red-700 text-white;
+  }
+
+  .secondary-btn {
+    @apply bg-gray-200 text-black;
+  }
+  .secondary-btn:hover {
+    @apply bg-gray-300 text-black;
+  }
+
+  .text-blue-btn {
+    @apply bg-transparent text-blue-600;
+  }
+  .text-blue-btn:hover {
+    @apply bg-transparent text-black;
+  }
+}

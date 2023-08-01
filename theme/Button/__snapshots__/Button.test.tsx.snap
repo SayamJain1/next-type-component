@@ -2,6 +2,6 @@
 
 exports[`performs snapshot testing 1`] = `
 <button
-  className="p-3 flex items-center hover:opacity-90 undefined undefined"
+  className="flex items-center undefined undefined rounded-lg undefined undefined"
 />
 `;
